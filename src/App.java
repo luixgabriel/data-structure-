@@ -8,11 +8,11 @@ import java.util.Stack;
 
 public class App {
     public static void main(String[] args) throws Exception {
-        //testingStack();
+        testingStack();
         //testingQueue();
         //testingPriorityQueue();
         //testingLinkedList();
-        testingDynamicArray();
+        //testingDynamicArray();
     }
 
     public static void testingStack() {
@@ -23,6 +23,7 @@ public class App {
         stack.push("Hajimme no Ippo");
         stack.push("Naruto");
         stack.push("Haaykyuu");
+        stack.push("Yu yu Hakusho");
         String favAnime = stack.pop();
         System.out.println(stack.search("Naruto"));
         System.out.println(favAnime);
@@ -83,6 +84,7 @@ public class App {
     public static  void testingDynamicArray(){
 
         DynamicArray dynamicArray = new DynamicArray(12);
+//        dynamicArray
         System.out.println(dynamicArray.capacity);
         
     }
